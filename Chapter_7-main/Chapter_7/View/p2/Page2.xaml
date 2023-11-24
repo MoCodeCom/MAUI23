@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Chapter_7.View.p2.Page2"
+             Title="Page2"
+             >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Home" Order="Secondary" CommandParameter="mp" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem Text="Next" Order="Secondary" CommandParameter="p3" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    
+    <VerticalStackLayout>
+        <Label 
+            Text="Page 2"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="root"
+                Text="Back To Root"
+                Clicked="root_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>

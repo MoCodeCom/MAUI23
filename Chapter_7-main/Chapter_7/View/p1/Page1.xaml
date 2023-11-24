@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Chapter_7.View.p1.Page1"
+             Title="Page1">
+    <VerticalStackLayout>
+        <Label 
+            Text="Page 1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+ 
+        <Button x:Name="MainPage"
+                Text="Main Page"
+                Clicked="Mp_Clicked"></Button>
+        <Button x:Name="Alert"
+                Text="Alert"
+                Clicked="Alert_Clicked"></Button>
+        
+    </VerticalStackLayout>
+</ContentPage>

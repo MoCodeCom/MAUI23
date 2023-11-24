@@ -1,0 +1,1 @@
+C:\Users\PC Mohammed\Desktop\VS\WPF\c#\MAUI\Chapter_7\Chapter_7\Chapter_7.csproj;x64

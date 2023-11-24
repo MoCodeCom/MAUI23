@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UsingXAMLChapter2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,10"
+            VerticalOptions="Center"
+            BackgroundColor="MediumSeaGreen"
+            HeightRequest="1000">
+
+            <Label Text="Chapter 2 XAML and XML"
+                   FontSize="22"
+                   FontFamily="Courier"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   Margin="0,10"></Label>
+            <Button Text="Namespace" Clicked="Button_Clicked_namespace"></Button>
+            <FlexLayout Wrap="Wrap"
+                        AlignItems="Center"
+                        JustifyContent="SpaceEvenly">
+                <Button x:Name="Chapter3" Clicked="Chapter3_Clicked" Text="Chapter 3" Margin="3" IsEnabled="False"></Button>
+                <Button x:Name="Chapter4" Clicked="Chapter4_Clicked" Text="Chapter 4" Margin="3"></Button>
+                <Button x:Name="Chapter5" Clicked="Chapter5_Clicked" Text="Chapter 5" Margin="3"></Button>
+                <Button x:Name="Chapter6" Clicked="Chapter6_Clicked" Text="Chapter 6" Margin="3"></Button>
+            </FlexLayout>
+            <Frame HeightRequest="100"
+                   WidthRequest="150"
+                   CornerRadius="10"
+                   HasShadow="True"
+                   x:Name="Frame1"
+                   >
+                <Button x:Name="Chapter7" Clicked="Chapter7_Clicked" Text="Chapter 7" Margin="3"></Button>
+
+            </Frame>
+            <Button x:Name="DependencyInjection"
+                    Text="Dependency Injection test"
+                    Clicked="DependencyInjection_Clicked"></Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+

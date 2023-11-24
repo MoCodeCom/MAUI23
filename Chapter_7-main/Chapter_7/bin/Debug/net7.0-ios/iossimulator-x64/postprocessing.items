@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="Chapter_7.app/Chapter_7">
+      <BCSymbolMapName>Chapter_7.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>Chapter_7.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/mohammedalfadhel/Desktop/vscsharp/Chapter_7-main/Chapter_7/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>Chapter_7.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/mohammedalfadhel/Desktop/vscsharp/Chapter_7-main/Chapter_7</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

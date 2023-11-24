@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IntroMAUI.MainPage">
+    <ContentPage.Padding>
+        10,30,10,5
+
+    </ContentPage.Padding>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image Source="myimage.png"
+                   WidthRequest="150"
+                   HeightRequest="150"
+                   Aspect="Fill"
+                   HorizontalOptions="End"
+                   x:Name="img">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Image.GestureRecognizers>
+
+            </Image>
+            <ScrollView VerticalOptions="FillAndExpand"
+                        >
+                <StackLayout HeightRequest="1500">
+                    <Label Text="label one" FontSize="30" HorizontalOptions="Center"></Label>
+                    <Label Text="label one" FontSize="30" HorizontalOptions="Center"></Label>
+                    <Label Text="label one" FontSize="30" HorizontalOptions="Center"></Label>
+                    <Label Text="label one" FontSize="30" HorizontalOptions="Center"></Label>
+                   
+                </StackLayout>
+
+            </ScrollView>
+
+            
+
+<Slider Minimum="0" Maximum="100"
+        x:Name="MySlider"
+        ValueChanged="Slider_ValueChanged"
+        />
+
+
+            <Button
+                x:Name="CounterBtn"
+                
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

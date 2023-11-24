@@ -1,0 +1,34 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Chapter_7"
+             xmlns:localx="clr-namespace:Chapter_7.View.TabbedPage"
+             xmlns:localy="clr-namespace:Chapter_7.View.p2"
+             
+             x:Class="Chapter_7.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+    <Application.MainPage>
+        <Shell>
+            <TabBar>
+                <Tab Title="pageone" Icon="dotnet_bot.svg">
+                    <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
+                </Tab>
+                <Tab Title="pagetwo" Icon="dotnet_bot.svg">
+                    <ShellContent ContentTemplate="{DataTemplate localx:tabPage}"/>
+                </Tab>
+                <Tab Title="pagethree" Icon="dotnet_bot.svg">
+                    <ShellContent ContentTemplate="{DataTemplate localy:Page2}"/>
+                </Tab>
+                
+            </TabBar>
+        </Shell>
+    </Application.MainPage>
+    
+</Application>

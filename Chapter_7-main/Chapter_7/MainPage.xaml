@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Chapter_7.MainPage"
+             Title="Home"
+             NavigationPage.BackButtonTitle="Home">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Button x:Name="Modelbtn"
+                    Text="Model button"
+                    Clicked="Modelbtn_Clicked"></Button>
+            <Button x:Name="ActionSheet"
+                    Text="Action Sheet"
+                    Clicked="ActionSheet_Clicked"></Button>
+            <Button x:Name="Hirarchical"
+                    Text="Hirarchial button"
+                    Clicked="Hirarchical_Clicked"></Button>
+            <Button x:Name="DrillDownList"
+                    Text="Drill Down List"
+                    Clicked="DrillDownList_Clicked"
+                ></Button>
+            <Button x:Name="UsingMasterContentPage"
+                    Text="Master Content Page"
+                    Clicked="UsingMasterContentPage_Clicked"></Button>
+            <Button x:Name="TabPage"
+                    Text="TabPage"
+                ></Button>
+            <Label x:Name="lblAction"></Label>
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

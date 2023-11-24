@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<controls:MasterDetailPage
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Chapter_7.View.MasterDetailPage"
+             x:Class="Chapter_7.View.MasterDetailPage.UsingMasterDetailPage"
+             Title="UsingMasterDetailPage">
+
+        <ContentView>
+            
+            <ContentView.Content>
+                <ListView x:Name="menu"></ListView>
+            </ContentView.Content>
+            
+        </ContentView>
+
+
+</controls:MasterDetailPage>

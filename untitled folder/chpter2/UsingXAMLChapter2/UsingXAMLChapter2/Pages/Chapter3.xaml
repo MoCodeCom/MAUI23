@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UsingXAMLChapter2.Pages.Chapter3" 
+             Title="Chapter3"
+             xmlns:Views="clr-namespace:UsingXAMLChapter2.Pages"
+             >
+    <StackLayout Padding="10,10,10,5">
+        <Label 
+            Text="Page Four"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Views:TextContentView></Views:TextContentView>
+    </StackLayout>
+</ContentPage>

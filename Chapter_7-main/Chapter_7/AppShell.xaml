@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Chapter_7.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:localx="clr-namespace:Chapter_7.View.TabbedPage"
+    xmlns:localy="clr-namespace:Chapter_7.View.p2"
+    xmlns:local="clr-namespace:Chapter_7"
+    xmlns:newLocal="clr-namespace:Chapter_7.View.p3"
+    Shell.FlyoutBehavior="Disabled">
+
+    
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage">
+        
+        
+
+            
+
+    </ShellContent>
+
+
+    <!--
+
+
+    -->
+
+
+
+</Shell>

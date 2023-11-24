@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{8B474B63-C38D-4382-B52D-395EC28B440B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppShell.xaml">
+    <Files>
+      <File FileName="App.xaml" Line="5" Column="14" />
+      <File FileName="App.xaml.cs" />
+      <File FileName="AppShell.xaml.cs" />
+      <File FileName="AppShell.xaml" Line="32" Column="1" />
+      <File FileName="MainPage.xaml" />
+      <File FileName="MauiProgram.cs" />
+      <File FileName="View/p3/Page3.xaml" />
+      <File FileName="View/p3/Page3.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Chapter_7" expanded="True">
+            <Node name="Chapter_7" expanded="True">
+              <Node name="View" expanded="True">
+                <Node name="p3" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.ItemProperties.Chapter__7 PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

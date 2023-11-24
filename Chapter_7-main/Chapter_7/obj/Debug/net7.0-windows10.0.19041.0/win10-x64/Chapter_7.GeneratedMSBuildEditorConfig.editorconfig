@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Chapter_7
+build_property.ProjectDir = C:\Users\PC Mohammed\Desktop\VS\WPF\c#\MAUI\Chapter_7\Chapter_7\
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/View/ContentPages/DetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.View.ContentPages.DetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ContentPages\DetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ContentPages\DetailPage.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/View/ContentPages/DrilldownListViewByItem.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.View.ContentPages.DrilldownListViewByItem.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ContentPages\DrilldownListViewByItem.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ContentPages\DrilldownListViewByItem.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/View/MasterDetailPage/MasterDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.View.MasterDetailPage.MasterDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MasterDetailPage\MasterDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MasterDetailPage\MasterDetailPage.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/View/MasterDetailPage/UsingMasterDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.View.MasterDetailPage.UsingMasterDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MasterDetailPage\UsingMasterDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MasterDetailPage\UsingMasterDetailPage.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/View/p1/Page1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.View.p1.Page1.xaml
+build_metadata.AdditionalFiles.TargetPath = View\p1\Page1.xaml
+build_metadata.AdditionalFiles.RelativePath = View\p1\Page1.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/View/p2/Page2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.View.p2.Page2.xaml
+build_metadata.AdditionalFiles.TargetPath = View\p2\Page2.xaml
+build_metadata.AdditionalFiles.RelativePath = View\p2\Page2.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/View/p3/Page3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.View.p3.Page3.xaml
+build_metadata.AdditionalFiles.TargetPath = View\p3\Page3.xaml
+build_metadata.AdditionalFiles.RelativePath = View\p3\Page3.xaml
+
+[C:/Users/PC Mohammed/Desktop/VS/WPF/c\#/MAUI/Chapter_7/Chapter_7/View/TabPg/tabPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chapter_7.View.TabPg.tabPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabPg\tabPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabPg\tabPage.xaml

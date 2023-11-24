@@ -1,0 +1,45 @@
+﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{9AA05080-A5A6-41A9-A50C-E5903D708CD7}|Default">
+  <MonoDevelop.Ide.ItemProperties.UsingXAMLChapter2 PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UsingXAMLChapter2/MainPage.xaml.cs">
+    <Files>
+      <File FileName="UsingXAMLChapter2/MainPage.xaml.cs" Line="41" Column="1" />
+      <File FileName="UsingXAMLChapter2/MainPage.xaml" />
+      <File FileName="UsingXAMLChapter2/Resources/Styles/Colors.xaml" />
+      <File FileName="UsingXAMLChapter2/Pages/namespacePage.xaml" />
+      <File FileName="UsingXAMLChapter2/Classes/namespaceClass.cs" />
+      <File FileName="UsingXAMLChapter2/Pages/namespacePage.xaml.cs" />
+      <File FileName="UsingXAMLChapter2/Pages/TextContentView.xaml" />
+      <File FileName="UsingXAMLChapter2/Pages/Chapter4.xaml" />
+      <File FileName="UsingXAMLChapter2/Pages/Chapter4.xaml.cs" />
+      <File FileName="UsingXAMLChapter2/Pages/Chapter3.xaml" />
+      <File FileName="UsingXAMLChapter2/Pages/TextContentView.xaml.cs" />
+      <File FileName="UsingXAMLChapter2/Services/IService.cs" />
+      <File FileName="UsingXAMLChapter2/Services/Service.cs" />
+      <File FileName="UsingXAMLChapter2/Startup.cs" />
+      <File FileName="UsingXAMLChapter2/App.xaml.cs" />
+      <File FileName="UsingXAMLChapter2/Pages/DependecyInjectionPage.xaml" />
+      <File FileName="UsingXAMLChapter2/Pages/DependecyInjectionPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UsingXAMLChapter2" expanded="True">
+            <Node name="UsingXAMLChapter2" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="coreApi.app/coreApi">
+      <BCSymbolMapName>coreApi.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>coreApi.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/mohammedalfadhel/Desktop/vscsharp/mauiApp/coreApi/coreApi/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>coreApi.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/mohammedalfadhel/Desktop/vscsharp/mauiApp/coreApi/coreApi</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
